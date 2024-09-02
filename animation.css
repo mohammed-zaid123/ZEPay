@@ -1,0 +1,30 @@
+.loadering{
+    width: 50px;
+    height: 50px;
+    border: 10px solid black;
+    border-radius: 50%;
+    border-top: 10px solid rgb(37, 13, 173);
+    animation: loader 2.5s ease-in-out 0s infinite normal ;
+
+}
+
+.loader{
+    display: flex;
+    justify-content: center;
+    
+}
+
+p{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+@keyframes loader{
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
